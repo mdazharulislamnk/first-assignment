@@ -265,3 +265,81 @@ footer .social-links a img {
     border: none;
     border-radius: 8px;
 }
+
+
+.current-target-section {
+    width: 1140px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 32px;
+}
+
+.current-target-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.current-target-section p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cards-container .card {
+    width: 360px;
+    height: 300px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cards-container .card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+}
+
+.cards-container .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cards-container .card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.cards-container .card button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cards-container .card button:hover {
+    background-color: #0056b3;
+}
+
+.cards-container .card:nth-child(1) {
+    background-color: #ffecec; /* Light red for HTML card */
+}
+
+.cards-container .card:nth-child(2) {
+    background-color: #e6f0ff; /* Light blue for CSS card */
+}
+
+.cards-container .card:nth-child(3) {
+    background-color: #fff9e6; /* Light yellow for JavaScript card */
+}
