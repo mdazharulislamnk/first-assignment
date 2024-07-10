@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -11,11 +16,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh; /* Full screen height */
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .center-section {
-    width: 998px;
-    height: 581px;
+    max-width: 998px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,17 +47,16 @@ header {
     height: 65px;
     padding: 10px 20px;
     background-color: #333;
-    text-decoration: none;
-    color: #fff;
     border: none;
     cursor: pointer;
-}
-.center-section button a {
-    text-decoration: none;
     color: #fff;
     font-size: 20px;
 }
 
+.center-section button a {
+    text-decoration: none;
+    color: #fff;
+}
 
 .center-section button:hover {
     background-color: #555;
@@ -61,9 +68,9 @@ header {
     background-position: center;
     padding: 60px 20px;
     text-align: center;
-    width: 1140px; /* Set width to 1140px */
-    height: 313px; /* Set height to 313px */
-    margin: 40px auto; /* Center horizontally */
+    max-width: 1140px;
+    width: 100%;
+    margin: 40px auto;
 }
 
 .support-section h2 {
@@ -82,7 +89,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px;
 }
 
 .feedback-form input {
@@ -112,18 +119,20 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 footer p {
+
     font-weight: bold;
-    margin: 0 150px;
+    margin: 10px 150px;
     font-size: 14px;
 }
 
 footer .social-links {
-    margin: 0 150px;
     display: flex;
     gap: 10px;
+    margin: 10px 150px;
 }
 
 footer .social-links a img {
@@ -131,14 +140,16 @@ footer .social-links a img {
     height: 24px;
 }
 
-/* Why Web Development Section CSS */
 .web-development {
-    width: 1140px;
-    height: 1393px;
+    max-width: 1140px;
+    width: 100%;
     margin: 40px auto;
     text-align: center;
     background-color: #f9f9f9;
-    padding: 48px; /* Added padding for the cards section */
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .web-development h2 {
@@ -154,14 +165,12 @@ footer .social-links a img {
 .web-development .card {
     display: flex;
     align-items: center;
-    background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
     width: 946px;
     height: 336px;
-    margin: 20px auto;
-    color: black;
+    color: #000;
 }
 
 .web-development .card.left .text-content {
@@ -186,8 +195,7 @@ footer .social-links a img {
 
 .web-development .text-content {
     flex-grow: 1;
-    width: 477px;  /* Set width to 477px */
-    height: 240px; /* Set height to 240px */
+    width: 477px;
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
@@ -218,6 +226,42 @@ footer .social-links a img {
 }
 
 .web-development .card img {
-    width: 240px;  /* Set width to 240px */
-    height: 240px; /* Set height to 240px */
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+}
+
+.inspiration-section {
+    width: 1140px;
+    height: auto;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inspiration-section .text-area {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto 20px auto;
+}
+
+.inspiration-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.inspiration-section p {
+    font-size: 18px;
+    color: #777;
+}
+
+.inspiration-section iframe {
+    width: 1076px;
+    height: 550px;
+    border: none;
+    border-radius: 8px;
 }
