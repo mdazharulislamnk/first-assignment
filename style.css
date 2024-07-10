@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    
+}
+header {
+    background-image: url(/assets/Hero-bg.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 1440px; 
+    height: 652px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-section {
+    width: 998px;
+    height: 581px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+   
+}
+.center-section h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.center-section p {
+    margin-bottom: 20px;
+}
+.center-section button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.center-section button:hover {
+    background-color: #555;
+}
+.support-section {
+    background-image: url('./assets/handshake.jpg'); /
+    background-size:cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    width: 100%;
+}
+.support-section h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+.support-section p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+.feedback-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-form input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.feedback-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feedback-form button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+footer .social-links {
+    display: flex;
+    gap: 10px;
+}
+footer .social-links a img {
+    width: 24px;
+    height: 24px;
+}
