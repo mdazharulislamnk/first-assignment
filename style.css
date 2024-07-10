@@ -13,7 +13,6 @@ header {
     align-items: center;
 }
 
-
 .center-section {
     width: 998px;
     height: 581px;
@@ -23,16 +22,17 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
-    
-   
 }
+
 .center-section h1 {
     margin-bottom: 20px;
     font-size: 24px;
 }
+
 .center-section p {
     margin-bottom: 20px;
 }
+
 .center-section button {
     padding: 10px 20px;
     background-color: #333;
@@ -41,32 +41,41 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .center-section button:hover {
     background-color: #555;
 }
+
 .support-section {
-    background-image: url('./assets/handshake.jpg'); 
-    background-size:cover;
+    background-image: url('./assets/handshake.jpg');
+    background-size: cover;
     background-position: center;
     padding: 60px 20px;
     text-align: center;
-
+    width: 1140px; /* Set width to 1140px */
+    height: 313px; /* Set height to 313px */
+    margin: 40px auto; /* Center horizontally */
 }
+
 .support-section h2 {
     font-size: 32px;
     color: white;
     margin-bottom: 20px;
 }
+
 .support-section p {
     font-size: 18px;
     color: white;
     margin-bottom: 20px;
 }
+
 .feedback-form {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
 }
+
 .feedback-form input {
     padding: 10px;
     width: 300px;
@@ -74,6 +83,7 @@ header {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 .feedback-form button {
     padding: 10px 20px;
     background-color: #333;
@@ -82,26 +92,123 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .feedback-form button:hover {
     background-color: #555;
 }
+
 footer {
     background-color: #f8f8f8;
     padding: 20px;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 footer p {
-    margin: 0;
+    font-weight: bold;
+    margin: 0 150px;
     font-size: 14px;
 }
+
 footer .social-links {
+    margin: 0 150px;
     display: flex;
     gap: 10px;
 }
+
 footer .social-links a img {
     width: 24px;
     height: 24px;
+}
+
+/* Why Web Development Section CSS */
+.web-development {
+    width: 1140px;
+    height: 1393px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 48px; /* Added padding for the cards section */
+}
+
+.web-development h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.web-development p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.web-development .card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 946px;
+    height: 336px;
+    margin: 20px auto;
+    color: black;
+}
+
+.web-development .card.left .text-content {
+    order: 1;
+    text-align: left;
+}
+
+.web-development .card.left img {
+    order: 2;
+    margin-left: 20px;
+}
+
+.web-development .card.right .text-content {
+    order: 2;
+    text-align: right;
+}
+
+.web-development .card.right img {
+    order: 1;
+    margin-right: 20px;
+}
+
+.web-development .text-content {
+    flex-grow: 1;
+    width: 477px;  /* Set width to 477px */
+    height: 240px; /* Set height to 240px */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.web-development .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.web-development .card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.web-development .card button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.web-development .card button:hover {
+    background-color: #0056b3;
+}
+
+.web-development .card img {
+    width: 240px;  /* Set width to 240px */
+    height: 240px; /* Set height to 240px */
 }
