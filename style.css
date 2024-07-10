@@ -17,7 +17,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full screen height */
-    color: #ffffff;
+    color: #181a17;
     text-shadow: 2px 2px 4px #000;
 }
 
@@ -55,11 +55,11 @@ header {
 
 .center-section button a {
     text-decoration: none;
-    color: #fff;
+    color: greenyellow;
 }
 
 .center-section button:hover {
-    background-color: #555;
+    background-color: white;
 }
 
 .support-section {
@@ -75,13 +75,15 @@ header {
 
 .support-section h2 {
     font-size: 32px;
-    color: white;
+    color: #f8f7fa;
+    text-shadow: 2px 2px 4px #000;
     margin-bottom: 20px;
 }
 
 .support-section p {
     font-size: 18px;
-    color: white;
+    color: #f8f7fa;
+    text-shadow: 2px 2px 4px #000;
     margin-bottom: 20px;
 }
 
@@ -275,6 +277,7 @@ footer .social-links a img {
 }
 
 .current-target-section h2 {
+    color: #5501fcef;
     font-size: 32px;
     margin-bottom: 10px;
     font-weight: bold;
