@@ -104,6 +104,7 @@ header {
 }
 
 .feedback-form button {
+    font-weight: 700;
     padding: 10px 20px;
     background-color: #fff  ;
     color: #333;
