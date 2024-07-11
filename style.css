@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Azeret Mono', monospace;
 }
 
 header {
@@ -66,7 +66,7 @@ header {
 }
 
 .support-section {
-    background-image: url('./assets/handshake.jpg');
+    background: rgba(10, 10, 10, 0.5) url('./assets/handshake.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     padding: 60px 20px;
@@ -74,17 +74,19 @@ header {
     max-width: 1140px;
     width: 100%;
     margin: 40px auto;
+    background-blend-mode: overlay;
 }
+
 
 .support-section h2 {
     font-size: 32px;
-    color: #023bf8;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
 .support-section p {
     font-size: 18px;
-    color: #faf3f3;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
