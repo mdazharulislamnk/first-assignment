@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     font-family: 'Azeret Mono', monospace;
 }
 
+/* Header Section */
 header {
     background-image: url('./assets/Hero-bg.png');
     background-size: cover;
@@ -65,6 +67,7 @@ header {
     background-color: rgb(255, 5, 5);
 }
 
+/* Support Section */
 .support-section {
     background: rgba(10, 10, 10, 0.5) url('./assets/handshake.jpg') no-repeat center center;
     background-size: cover;
@@ -76,7 +79,6 @@ header {
     margin: 40px auto;
     background-blend-mode: overlay;
 }
-
 
 .support-section h2 {
     font-size: 32px;
@@ -108,7 +110,7 @@ header {
 .feedback-form button {
     font-weight: 700;
     padding: 10px 20px;
-    background-color: #fff  ;
+    background-color: #fff;
     color: #333;
     border: none;
     border-radius: 5px;
@@ -119,6 +121,7 @@ header {
     background-color: #ff0c0c;
 }
 
+/* Footer Section */
 footer {
     background-color: #f8f8f8;
     padding: 20px;
@@ -129,7 +132,6 @@ footer {
 }
 
 footer p {
-
     font-weight: bold;
     margin: 10px 170px;
     font-size: 14px;
@@ -146,6 +148,7 @@ footer .social-links a img {
     height: 24px;
 }
 
+/* Why Web Development Section */
 .web-development {
     max-width: 1140px;
     width: 100%;
@@ -238,6 +241,7 @@ footer .social-links a img {
     border-radius: 8px;
 }
 
+/* Inspiration Section */
 .inspiration-section {
     width: 1140px;
     height: auto;
@@ -273,7 +277,7 @@ footer .social-links a img {
     border-radius: 8px;
 }
 
-
+/* Current Target Section */
 .current-target-section {
     width: 1140px;
     margin: 40px auto;
